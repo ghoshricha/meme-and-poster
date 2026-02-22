@@ -51,6 +51,8 @@ streamlit run frontend/streamlit_app.py
   - Text wrapping ensures the caption fits nicely on the image.
 - **Output:** The generated image is saved in the `outputs/` folder.
 - **Display:** The Streamlit frontend displays the generated caption and the meme/poster image.
+
+  
 ---.
 
 ### 💡 Future Improvements
