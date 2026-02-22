@@ -52,8 +52,8 @@ streamlit run frontend/streamlit_app.py
 - **Output:** The generated image is saved in the `outputs/` folder.
 - **Display:** The Streamlit frontend displays the generated caption and the meme/poster image.
 
-  
----.
+
+---
 
 ### 💡 Future Improvements
 
