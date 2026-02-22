@@ -60,3 +60,7 @@ streamlit run frontend/streamlit_app.py
 ---
 
 ## 🔗 Demo
+
+<img width="1919" height="612" alt="Screenshot 2026-02-22 115257" src="https://github.com/user-attachments/assets/d142e9e6-af74-481a-922a-42891ea4cfaf" />
+
+<img width="1919" height="906" alt="Screenshot 2026-02-22 115320" src="https://github.com/user-attachments/assets/ad54b033-37fa-4902-a8d1-41f7526e618b" />
