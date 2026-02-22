@@ -41,21 +41,24 @@ streamlit run frontend/streamlit_app.py
 
 ---
 
-## 🧠 How It Works
--Enter a topic and select a tone (Funny, Sarcastic, Motivational).
--Choose mode: Meme or Poster.
--Click Generate.
--FastAPI backend generates a caption using Falcon RW-1B.
--Pillow renders the caption onto a new image (or template).
--Streamlit displays the generated caption and image.
+### ⚙️ How It Works
 
----
+- **User Input:** Enter a topic, select a tone (Funny, Sarcastic, Motivational), and choose the mode (meme or poster).
+- **Caption Generation:** The backend uses a transformer model (`tiiuae/falcon-rw-1b`) to generate a short, context-aware caption based on your input.
+- **Image Creation:** 
+  - A new image is created with a dark background by default.
+  - The caption is drawn on the image using a font (defaults to `arial.ttf` if available).
+  - Text wrapping ensures the caption fits nicely on the image.
+- **Output:** The generated image is saved in the `outputs/` folder.
+- **Display:** The Streamlit frontend displays the generated caption and the meme/poster image.
+---.
 
-## 💡 Future Improvements
--Add more stylish fonts and animated meme templates.
--Improve caption creativity and humor with advanced instruction-tuned models.
--Support user-uploaded backgrounds and multiple image sizes.
--Implement multi-line captions with dynamic sizing.
+### 💡 Future Improvements
+
+- Add more stylish fonts and animated meme templates.
+- Improve caption creativity and humor with advanced instruction-tuned models.
+- Support user-uploaded backgrounds and multiple image sizes.
+- Implement multi-line captions with dynamic sizing.
 
 ---
 
